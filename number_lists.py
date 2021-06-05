@@ -15,6 +15,12 @@ print("mississippi".count("s"))
 
 even.extend(odd)
 print(even)
+another_even = even
+print(even)
+
+even.sort(reverse=True)
+print(even)
 
 even.sort()
 print(even)
+
