@@ -9,3 +9,6 @@ print(max(odd))
 print()
 print(len(even))
 print(len(odd))
+
+print()
+print("mississippi".count("s"))
