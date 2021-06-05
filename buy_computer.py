@@ -3,6 +3,8 @@ computer_parts = [] #create an empty list
 while current_choice != '0':
     if current_choice in "12345":
         print("Adding {}".format(current_choice))
+        if current_choice == '1':
+            computer_parts.append("computer")
 
     else:
         print("Please add options from the list below: ")
