@@ -8,3 +8,11 @@ print(numbers)
 
 sorted_numbers = sorted(numbers)
 print(sorted_numbers)
+
+digits = sorted("432985617")
+print(digits)
+
+more_numbers = numbers.copy()
+print(more_numbers)
+print(numbers is more_numbers)
+print(numbers == more_numbers)
