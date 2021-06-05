@@ -8,5 +8,6 @@ sorted_numbers = sorted(numbers)
 print(sorted_numbers)
 print(numbers)
 
-numbers.sort()
+another_sorted_numbers = numbers.sort()
 print(numbers)
+print(another_sorted_numbers)
