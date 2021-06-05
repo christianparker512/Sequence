@@ -4,12 +4,13 @@ letters = sorted(pangram)
 print(letters)
 
 numbers = [2.4, 4.5, 8.7, 3.1, 9.2, 1.6]
-sorted = sorted(numbers)
-print(sorted)
+sorted_numbers = sorted(numbers)
+print(sorted_numbers)
 print(numbers)
 
 numbers.sort()
 print(numbers)
 
-missing_letter = sorted("The quick brown fox jumped over the lazy dog")
+missing_letter = sorted("The quick brown fox jumped over the lazy dog",
+                        key=str.casefold)
 print(missing_letter)
