@@ -5,3 +5,7 @@ print(min(even))
 print (max(even))
 print(min(odd))
 print(max(odd))
+
+print()
+print(len(even))
+print(len(odd))
