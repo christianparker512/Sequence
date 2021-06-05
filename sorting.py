@@ -6,3 +6,7 @@ print(letters)
 numbers = [2.4, 4.5, 8.7, 3.1, 9.2, 1.6]
 sorted_numbers = sorted(numbers)
 print(sorted_numbers)
+print(numbers)
+
+numbers.sort()
+print(numbers)
