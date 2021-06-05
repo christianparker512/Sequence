@@ -7,6 +7,10 @@ max_valid = 200
 #        print(index,data)
 #        del data[index]
 
+top_index = len(data) - 1
 for index, value in enumerate(reversed(data)):
-    print(index,value)
+    if value <min_valid or value >max_valid:
+        print(top_index - index, value)
+        del data[top_index - index]
+
 print(index)
