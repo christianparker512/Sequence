@@ -3,8 +3,8 @@ available_parts = ["computer",
                    "keyboard",
                    "mouse",
                    "mouse pad",
-                   "hdmi cable"
-
+                   "hdmi cable",
+                   "dvd drive"
                    ]
 current_choice = "-"
 computer_parts = [] #create an empty list
