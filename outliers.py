@@ -16,3 +16,10 @@ for index, value in enumerate(data):
 print(stop)
 del data[:stop]
 print(data)
+
+start = 0
+for index in range(len(data) -1, -1, -1):
+    #We have the indexs of the last item to keep
+    #Set 'STart to the position of th efirst
+    #item to delete
+    print(index)
