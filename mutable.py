@@ -19,3 +19,9 @@ print(another_list)
 
 #chaining assignments
 a = b = c = d = e = f = another_list
+print(a)
+
+print("adding cream")
+b.append("ice cream")
+print(c)
+print(d)
