@@ -23,7 +23,11 @@ print(data)
 
 start = 0
 for index in range(len(data) -1, -1, -1):
+    if data[index] <= max_valid:
     #We have the indexs of the last item to keep
     #Set 'STart to the position of th efirst
     #item to delete
-    print(index)
+        start = index +1
+        break
+
+print(start)
