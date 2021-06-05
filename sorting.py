@@ -8,6 +8,8 @@ sorted_numbers = sorted(numbers)
 print(sorted_numbers)
 print(numbers)
 
-another_sorted_numbers = numbers.sort()
+numbers.sort()
 print(numbers)
-print(another_sorted_numbers)
+
+missing_letter = sorted("The quick brown fox jumped over the lazy dog")
+print(missing_letter)
