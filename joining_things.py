@@ -6,10 +6,11 @@ flowers = [
     "Lavender",
     "Sunflower",
     "Tiger Lily",
+    
 ]
 #for flower in flowers:
 #    print(flowers)
 
-separator = " | "
+separator = ", "
 output = separator.join(flowers)
 print(output)
