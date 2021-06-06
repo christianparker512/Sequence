@@ -14,7 +14,7 @@ menu = [
 #         if meal[index] == "spam":
 #             del meal[index]
 #
-#     print(meal)
+#     print(", ".join(meal)
 
 for meal in menu:
     items = ", ".join((item for item in meal if item != "spam"))
