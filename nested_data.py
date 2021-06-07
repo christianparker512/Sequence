@@ -44,12 +44,13 @@ for name, artist, year, songs in albums:
 
 print()
 
-album = albums[2]
+album = albums[3]
 print(album)
 
 songs = album[3]
 print(songs)
 
-song = songs[1]
+song = songs[2]
 print(song)
 print(song[1])
+
