@@ -57,4 +57,6 @@ print(song[1])
 mayhem = albums[3][3][2][1]
 print(mayhem)
 
-print(albums[albums])
+print(albums[3])
+print(albums[3][3])
+print(albums[3])
